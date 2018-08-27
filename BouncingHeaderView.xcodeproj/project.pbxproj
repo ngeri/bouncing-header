@@ -14,6 +14,7 @@
 		2525173A1FACB82700D1F0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252517381FACB82700D1F0E2 /* LaunchScreen.storyboard */; };
 		252517451FACB82700D1F0E2 /* BouncingHeaderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252517441FACB82700D1F0E2 /* BouncingHeaderViewTests.swift */; };
 		252517501FACB82700D1F0E2 /* BouncingHeaderViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525174F1FACB82700D1F0E2 /* BouncingHeaderViewUITests.swift */; };
+		258A74781FAE4D6800A5A6A9 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258A74771FAE4D6800A5A6A9 /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2525174B1FACB82700D1F0E2 /* BouncingHeaderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncingHeaderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2525174F1FACB82700D1F0E2 /* BouncingHeaderViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingHeaderViewUITests.swift; sourceTree = "<group>"; };
 		252517511FACB82700D1F0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258A74771FAE4D6800A5A6A9 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2525172F1FACB82600D1F0E2 /* AppDelegate.swift */,
 				252517311FACB82600D1F0E2 /* ViewController.swift */,
+				258A74771FAE4D6800A5A6A9 /* ScrollViewController.swift */,
 				252517331FACB82600D1F0E2 /* Main.storyboard */,
 				252517361FACB82700D1F0E2 /* Assets.xcassets */,
 				252517381FACB82700D1F0E2 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				252517321FACB82600D1F0E2 /* ViewController.swift in Sources */,
+				258A74781FAE4D6800A5A6A9 /* ScrollViewController.swift in Sources */,
 				252517301FACB82600D1F0E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
