@@ -15,6 +15,7 @@
 		252517451FACB82700D1F0E2 /* BouncingHeaderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252517441FACB82700D1F0E2 /* BouncingHeaderViewTests.swift */; };
 		252517501FACB82700D1F0E2 /* BouncingHeaderViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525174F1FACB82700D1F0E2 /* BouncingHeaderViewUITests.swift */; };
 		258A74781FAE4D6800A5A6A9 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258A74771FAE4D6800A5A6A9 /* ScrollViewController.swift */; };
+		25CAB00121480FB300E03896 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CAB00021480FB300E03896 /* UIImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2525174F1FACB82700D1F0E2 /* BouncingHeaderViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingHeaderViewUITests.swift; sourceTree = "<group>"; };
 		252517511FACB82700D1F0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		258A74771FAE4D6800A5A6A9 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		25CAB00021480FB300E03896 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		2525172E1FACB82600D1F0E2 /* BouncingHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				25CAAFFF21480FA500E03896 /* Helpers */,
 				2525172F1FACB82600D1F0E2 /* AppDelegate.swift */,
 				252517311FACB82600D1F0E2 /* ViewController.swift */,
 				258A74771FAE4D6800A5A6A9 /* ScrollViewController.swift */,
@@ -126,6 +129,14 @@
 				252517511FACB82700D1F0E2 /* Info.plist */,
 			);
 			path = BouncingHeaderViewUITests;
+			sourceTree = "<group>";
+		};
+		25CAAFFF21480FA500E03896 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				25CAB00021480FB300E03896 /* UIImageExtensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				252517321FACB82600D1F0E2 /* ViewController.swift in Sources */,
 				258A74781FAE4D6800A5A6A9 /* ScrollViewController.swift in Sources */,
 				252517301FACB82600D1F0E2 /* AppDelegate.swift in Sources */,
+				25CAB00121480FB300E03896 /* UIImageExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
